@@ -60,3 +60,13 @@ Once you see `INFO:     Application startup complete.` you can try to connect to
 ### 4. Setup the opencode
 
 Copy the `opencode.json` file to `~/.config/opencode/` and start the opencode.
+
+### 5. Wtf is tcp-stack?
+
+This is the eval so to speak. This is what `opencode` created fully autonomously after given the following prompt and answering its questions:
+
+```
+We want to create a from scratch implementation of the TCP protocol in Rust, running in the user space and using Linux raw IP sockets
+```
+
+Judge for yourself.
