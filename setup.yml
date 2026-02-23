@@ -9,7 +9,7 @@
     # WireGuard
     wg_server_address: 10.0.0.1/24
     wg_listen_port: 51820
-    wg_client_pubkey: "{{ lookup('file', '~/.wireguard/client_public.key') }}"
+    wg_client_pubkey: "{{ lookup('file', '/usr/local/etc/wireguard/client_public.key') }}"
     wg_client_ip: 10.0.0.2/32
 
   tasks:
